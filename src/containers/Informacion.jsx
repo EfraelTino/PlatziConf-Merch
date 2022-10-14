@@ -1,5 +1,7 @@
 import React from 'react';
-import '../styles/components/Informacion.css'
+// (HEADER/CHEQUEAR/INFORMACION/PAGAR)
+import { Link } from 'react-router-dom';
+import '../styles/components/Informacion.css';
 
 const Informacion = () => {
     return (
@@ -26,9 +28,10 @@ const Informacion = () => {
                     <div className='Information-back'>
                         Regresar
                     </div>
-                    <div className='Information-next'>
+                    <Link to='/chequear/payment'><div className='Information-next'>
                         Pagar
-                    </div>
+                    </div></Link>
+                    
                 </div>
             </div>
             <div className='Information-sidebar'>
