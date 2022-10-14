@@ -2,7 +2,17 @@ import React from 'react';
 import '../styles/components/Pagos.css'
 const Pagos = () => {
     return (
-        <h1>Pagos</h1>
+        <div className='Payment'>
+            <div className='Payment-content'>
+                <h3>Reumen del pedido</h3>
+                <div className='Payment-button'>
+                    Boton de pago con Paypal
+                </div>
+            </div> 
+            <div className=''>
+
+            </div>
+        </div>
     );
 }
 
